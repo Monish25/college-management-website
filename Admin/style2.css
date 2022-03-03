@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+body{
+    background-color: rgb(128, 248, 208);
+    background-image: linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b);;
+
+
+}
+
+.leftpos{
+    position: absolute;
+   
+}
+
+marquee{
+    width: 500px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+}

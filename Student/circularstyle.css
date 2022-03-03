@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+body{
+    background-image: linear-gradient(45deg, #48ce88 0%, #fbf415 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.main{
+font-family: 'Noto Sans KR', sans-serif;
+color:rgb(67, 50, 223);
+text-shadow: 2px 2px rgb(230, 31, 170);
+}   
+
+.title{
+    font-size: 70px;
+    font-family: 'Titillium Web', sans-serif;  
+    color: rgb(166, 13, 196);
+    text-shadow: 3px 2px rgb(25, 31, 122);
+}

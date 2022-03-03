@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Login</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link rel="stylesheet" href="loginstyle.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body class=backg>
+      <center>
+          <h1>
+              <label class ='clgname'>College Name </label>
+          </h1>
+          <div align="left" class="lstyl">
+            <center>
+              <button type="button" onclick="location.href='../main.html'" >
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+          <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+        </svg>
+                </button>
+            </center>
+             </div>
+          <h1>
+              <label class="loginn"> Login </label>
+          </h1>
+          <br>
+          
+          <table border=2 style="border-color: rgb(41, 43, 43);">
+            <tr>
+              <th style="text-align:center;"><button class="checkbutton"><a href="login.html"><h3>LOG IN <input type="checkbox" value="capslock" id="cl" checked onclick="return false;"></h3></a></button></th>
+              <th style="text-align:center;"><button class="checkbutton"><a href="newregister.html"><h3>SIGN UP</h3></a></button></th>
+            </tr>
+            <tr>
+            </table>
+                <th colspan=2 style="text-align: center;">
+                  <form method="POST" action="verification.php">
+                    <div class="outline">
+                    <label class="txtbox">Application no :</label> <input type="text" placeholder="Please enter your user name" size="25" name="username" class="input" required></h3>
+                    <br>
+                    <br>
+                    <label class="txtbox">Password :</label> <input type="password" placeholder="Please enter your password" size="25" id="pass" name="password" class="input" required>
+                      <button type="button"name=" dispassword" onclick="dispass()" id="cl" class="eyes">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
+                        <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"/>
+                        <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"/>
+                      </svg>
+                      </button> 
+                    </h3>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <input type="submit" value="Submit" class="btn-grad"> 
+                    </div>
+                </form>
+                </th>
+            </tr>
+          
+        </center>
+        <script>
+          function dispass()
+          {
+            if(document.getElementById("pass").type=="password")
+            {
+              document.getElementById("pass").type="text";
+
+            }
+            else{
+              document.getElementById("pass").type="password";
+            }
+          }
+        </script>
+    <script type = "text/javascript" >  
+      function preventBack() 
+      { window.history.forward(); }  
+      setTimeout("preventBack()", 0);  
+      window.onunload = function () { null };  
+  </script>
+    
+  </body>
+</html>

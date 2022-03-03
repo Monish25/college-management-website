@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+
+
+body{
+
+        background-image: linear-gradient(45deg, #48ce88 0%, #fbf415 100%);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+.log{
+    text-align: center;
+    font-family: 'Encode Sans SC', sans-serif;
+    font-size: 70px;
+    color: red;
+    text-shadow: 2px 2px seagreen;
+}
+
+.msg{
+    text-align:center;
+    font-size: 40px;
+}
+
+
+
+.btn-grad {background-image: linear-gradient(to right, #0cebeb 0%, #20e3b2  51%, #0cebeb  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   font-family: 'Raleway', sans-serif;
+}
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: rgb(252, 228, 16);
+   text-decoration: none;
+   font-size: 20px;
+ }
+
+a{
+    color:springgreen
+}

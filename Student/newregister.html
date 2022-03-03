@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>New registration</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="newregister.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body class='backg'>
+    <center>
+      
+          <label class="clgname">College Name</label>
+  <br>
+     <label class="loginn">Sign up</label> 
+     
+      <br>
+      <br>
+      <table border=5 style="border-color: darkcyan;">
+        <tr>
+          <th style="text-align:center;"><button><a href="login.html"><h3>LOG IN</h3></a></button></th>
+          <th style="text-align:center;"><button><a href="newregister.html"><h3>SIGN UP <input type="checkbox" value="capslock" id="cl" checked onclick="return false;"></h3></a></button></th>
+        </tr>
+        </table>
+        <tr>
+          
+            <th colspan=2 style="text-align: center;">
+              <form method="POST" action="new.php" id="myForm">
+                <br>
+                <div class="outline">
+                  <br>
+                  <h3><span style="color:red">*</span>Application no : <input type="text" placeholder="Please enter your user name" size="25" name="appno" required oninvalid="this.setCustomValidity('Enter your Application no')"></h3>
+                <br>
+                <h3><span style="color:red">*</span>Name : <input type="text" placeholder="Please enter your Full Name" size="25" id="name" 
+                  name="name" required oninvalid="this.setCustomValidity('Enter your Name Here')"></h3>
+                <br>
+                <h3><span style="color:red">*</span>Phone number : <input type="number" placeholder="Please enter your phone no" size="25" id="phno" 
+                  name="phnumber" required oninvalid="this.setCustomValidity('Enter your Phone no Here')"></h3>
+                <br>
+                <h3><span style="color:red">*</span>Date of birth : <input type="date" id="cal" name="calender" value=""  min="1900-01-01" 
+                  max="2020-01-01" required oninvalid="this.setCustomValidity('Select your date of birth')"></h3>
+                <br>
+                <!-- <h3><span style="color:red">*</span>Department : <input type="text" placeholder="Please enter your department" size="25" id="dep" 
+                  name="depart" required oninvalid="this.setCustomValidity('Enter your Department Please')"></h3>
+                <br> -->
+                <h3>
+                  Department : <select name="depart">
+                    <option value="Department">Department</option>
+                    <option value="cse">CSE</option>
+                  </select>
+                </h3>
+                  <br>
+                <h3><span style="color:red">*</span>Email id : <input type="email" id="eid" name="eid" required oninvalid="this.setCustomValidity('Enter your Email id')"></h3>
+                <br>
+                <h3>
+                  Gender :  
+                <input type="radio" name=gender value="Male">Male
+                <input type="radio" name=gender value="Female">Female
+                </h3>
+                <br>
+                <h3>
+                  Year :  
+                <input type="radio" name=year value="1st year">1st year
+                <input type="radio" name=year value="2nd year">2nd year
+                <input type="radio" name=year value="3rd year">3rd year
+                <input type="radio" name=year value="4th year">4th year
+                </h3>
+                <br>
+                <h3><span style="color:red">*</span>New Password : <input type="password" placeholder="Please enter your password" size="25" id="pass" 
+                  name="password" required oninvalid="this.setCustomValidity('Enter your Password')">
+                  <button onclick="dispass()">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
+                    <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"/>
+                    <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"/>
+                  </svg></button></h3>
+                <br>
+                <h3><span style="color:red">*</span>Rewrite the new Password : <input type="password" placeholder="Please enter password again" size="25" 
+                  id="rpass" name="rpassword" required>
+                  <button onclick="dispass1()">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-eye" viewBox="0 0 16 16">
+                    <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"/>
+                    <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"/>
+                  </svg></button>
+                </h3>
+                <br>
+                <input type="submit" value="Submit" class="btn-grad">
+              </div>
+              </form>
+            </th>
+        </tr>
+     >
+    </center>
+    <script>
+      function dispass()
+        {
+          if(document.getElementById("pass").type=="password")
+          {
+            document.getElementById("pass").type="text";
+          }
+          else{
+            document.getElementById("pass").type="password";
+          }
+        }
+      function dispass1()
+      {
+        if(document.getElementById("rpass").type=="password")
+        {
+          document.getElementById("rpass").type="text";
+        }
+        else{
+          document.getElementById("rpass").type="password";
+        }
+      }
+    </script>
+    <script type = "text/javascript" >  
+        function preventBack() { window.history.forward(); }  
+        setTimeout("preventBack()", 0);  
+        window.onunload = function () { null };  
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

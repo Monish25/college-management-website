@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+
+
+.head{
+    font-size: 50px;
+    font-family: 'Titillium Web', sans-serif;  
+    color: rgb(52, 241, 61);
+    text-shadow: 3px 2px rgb(25, 31, 122);
+}
+
+.detail{
+    font-size: 70px;
+    font-family: 'Raleway', sans-serif;  
+    color: rgb(97, 226, 219);
+    font-size: 60px;
+    text-shadow: 3px 2px rgb(25, 31, 122);
+}
+
+body {
+    background: linear-gradient(-45deg, rgba(217,9,27,1) 6.9%, rgba(22,68,150,1) 75%);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+}
+}
+
+
+.btn-grad {background-image: linear-gradient(to right, #003973 0%, #E5E5BE  51%, #003973  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   font-family: 'Raleway', sans-serif;
+   
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: rgb(255, 9, 9);
+   text-decoration: none;
+   font-size: 20px;
+ }

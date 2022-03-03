@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+
+.bg{
+    background-color: rgb(235, 192, 127);
+    background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.title2{
+    font-size: 50px;
+    font-family: 'Titillium Web', sans-serif;  
+    color: rgb(245, 7, 225);
+    text-shadow: 3px 2px rgb(148, 148, 221);
+}
+
+.detail{
+    font-size: 35px;
+    font-family: 'Lato', sans-serif;
+    color:rgb(253, 55, 55);
+    text-transform: uppercase;
+    text-shadow: 2px 2px black;
+
+}
+
+.detail1{
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    color:rgb(211, 243, 29);
+    text-shadow: 2px 2px black;
+
+}
+
+
+.btn-grad {background-image: linear-gradient(to right, #5C258D 0%, #4389A2  51%, #5C258D  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   font-family: 'Raleway', sans-serif;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: rgb(69, 221, 31);
+   font-size: 20px;
+   text-decoration: none;
+ }
+
+ marquee{
+    width: 500px;
+ }
+
+ .outline{
+    border: 4px solid rgb(228, 23, 75);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    width: 400px;
+    height: 250px;
+    background-color: rgb(118, 197, 87);
+    box-shadow: 5px solid violet;
+}

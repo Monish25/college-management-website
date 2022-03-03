@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+.bg{
+    background-color: rgb(235, 192, 127);
+    background: linear-gradient(to right, #e96443, #904e95);
+
+}
+
+.detail1{
+    font-family: 'Raleway', sans-serif;
+    font-size: large;
+    color: white;
+    text-shadow: 2px 2px black;
+    
+}
+
+
+.btn-grad {background-image: linear-gradient(to right, #DE6262 0%, #FFB88C  51%, #DE6262  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   font-family: 'Raleway', sans-serif;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: rgb(14, 13, 13);
+   font-size: 20px;
+   text-decoration: none;
+ }
+
+
+ .outline{
+  border: 4px solid rgb(228, 23, 75);
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  width: 400px;
+  height: 450px;
+  background-color: rgb(118, 197, 87);
+  box-shadow: 5px solid violet;
+}
+
+.txt{
+  float: right;
+  clear: both;
+}

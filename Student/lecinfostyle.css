@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+
+
+body{
+    background-image: linear-gradient(45deg, #48ce88 0%, #fbf415 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bm 
+        {
+            width: 850px;
+            
+            padding: 25px;
+            margin: 20px;
+        }
+
+.heading{
+    font-family: 'Noto Sans KR', sans-serif;
+color:rgb(216, 84, 198);
+text-shadow: 2px 2px rgb(31, 29, 30);
+}
+
+.search{
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+.btn-grad {background-image: linear-gradient(to right, #0575E6 0%, #021B79  51%, #0575E6  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   
+   font-family: 'Raleway', sans-serif;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: rgb(228, 215, 38);
+   text-decoration: none;
+   font-size: 20px ;
+ }
+ .title{
+    font-size: 70px;
+    font-family: 'Titillium Web', sans-serif;  
+    color: rgb(88, 98, 235);
+    text-shadow: 3px 2px rgb(25, 31, 122);
+}

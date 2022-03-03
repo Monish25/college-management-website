@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+
+body{
+    background-image: linear-gradient(45deg, #48ce88 0%, #fbf415 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main{
+    font-family: 'Noto Sans KR', sans-serif;
+    color:rgb(67, 50, 223);
+    text-shadow: 2px 2px rgb(230, 31, 170);
+    font-size: 70px;
+    }   
+
+
+    .btn-grad {background-image: linear-gradient(to right, #007991 0%, #78ffd6  51%, #007991  100%)}
+    .btn-grad {
+       margin: 10px;
+       padding: 15px 45px;
+       text-align: center;
+       text-transform: uppercase;
+       transition: 0.5s;
+       background-size: 200% auto;
+       color: white;            
+       box-shadow: 0 0 20px #eee;
+       border-radius: 10px;
+       font-family: 'Raleway', sans-serif;
+     }
+
+     .btn-grad:hover {
+       background-position: right center; /* change the direction of the change here */
+       color: rgb(11, 12, 11);
+       font-size: 20px;
+       text-decoration: none;
+     }
+     .outline{
+      border: 4px solid rgb(228, 23, 75);
+      border-radius: 10px;
+      text-align: center;
+      padding: 20px;
+      width: 600px;
+      height: 350px;
+      background-color: rgb(118, 197, 87);
+      box-shadow: 5px solid violet;
+  }
+  textarea{
+    height: 150px;
+    width: 400px;
+}

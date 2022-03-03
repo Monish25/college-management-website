@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+
+
+body{
+    background-image: linear-gradient(45deg, #48ce88 0%, #fbf415 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}   
+.title{
+    font-size: 70px;
+    font-family: 'Titillium Web', sans-serif;  
+    color: rgb(230, 38, 111);
+    text-shadow: 3px 2px rgb(25, 31, 122);
+}
