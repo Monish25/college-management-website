@@ -2,4 +2,4 @@
  A Prototype Website to replicate the College management System using HTML CSS JS and PHP with SQL as Database 
 
 
-**__Made by Monish Raaj.S, Navaneetha Krishnan.R, Karthik.S__**
+**__Made by 1) Monish Raaj.S 2) Navaneetha Krishnan.R 3) Karthik.S College of Engineering Guindy__**
